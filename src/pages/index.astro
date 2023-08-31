@@ -4,6 +4,8 @@ import Hero from '../components/Hero.astro'
 import Feature from '../components/Feature.astro'
 import Counter from '../components/Counter.astro'
 import ContentMedia from '../components/ContentMedia.astro'
+
+const { silver = '/Badge/Silver.png' } = Astro.props
 ---
 
 <DefaultLayout title="Home">
@@ -42,6 +44,7 @@ import ContentMedia from '../components/ContentMedia.astro'
       </div>
     </div>
   </section> -->
+  
   <section class="mt-64 mb-32">
     <div class="container">
       <h2 class="mb-16 text-6xl">Counters</h2>
