@@ -1,17 +1,7 @@
 ---
 import DefaultLayout from '../layouts/DefaultLayout.astro'
-import { Icon } from 'astro-icon'
-import {
-  Accordion,
-  AccordionItem,
-  Breadcrumbs,
-  BreadcrumbsItem,
-  Card,
-  Media,
-  Modal,
-  Notification,
-  Pagination,
-} from 'accessible-astro-components'
+
+const { gkr = '/src/assets/img/GKR.png' } = Astro.props
 ---
 
 <DefaultLayout title="Organization">
@@ -27,7 +17,7 @@ import {
     <div class="container">
     <h2>Achievements</h2>
       <div class="grid grid-cols-1 gap-32 md:grid-cols-2">
-        #1 GKR League Summer Split 2023
+      <div class="grid grid-cols-1 gap-32 md:grid-cols-2 mt-auto"> <img class="hidden lg:block h-32 w-auto ml-auto mr-auto" src={gkr} alt="GKR" decoding="async" /> #1 GKR League Summer Split 2023</div>
       </div>
     </div>
   </section>
