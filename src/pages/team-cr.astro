@@ -14,10 +14,39 @@ const { cw = '/Loading screen Clan Wars 2.png' } = Astro.props
     </div>
   </section>
   <section class="mb-12 mt-32">
-    <div class="container">
-      <div class="grid grid-cols-1 gap-32 md:grid-cols-2">
-       Coming Soon...
-      </div>
-    </div>
+   <div class="grid gap-4 grid-cols-3 grid-rows-2">
+   
+   <div class="flex flex-col">
+   <img class="w-full h-auto rounded-t-xl" src={cw} alt="CR">
+   <p class="text-lg font-bold">Keef</p>
+   </div>
+
+   <div class="flex flex-col">
+   <img class="w-full h-auto rounded-t-xl" src={cw} alt="CR">
+   <p class="text-lg font-bold">🇧🇷 Samuel Bassotto</p>
+   </div>
+
+   <div class="flex flex-col">
+   <img class="w-full h-auto rounded-t-xl" src={cw} alt="CR">
+   <p class="text-lg font-bold">Miniminter</p>
+   </div>
+
+   <div class="flex flex-col">
+   <img class="w-full h-auto rounded-t-xl" src={cw} alt="CR">
+   <p class="text-lg font-bold">🇧🇷 Surg TS</p>
+   </div>
+
+   <div class="flex flex-col">
+   <img class="w-full h-auto rounded-t-xl" src={cw} alt="CR">
+   <p class="text-lg font-bold">Kodigo</p>
+   </div>
+
+   </div>
   </section>
 </DefaultLayout>
+
+<style>
+.emoji {
+  font-family: "Twemoji Country Flags", "Helvetica", "Comic Sans", serif;
+}
+</style>
