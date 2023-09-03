@@ -4,6 +4,7 @@ import DefaultLayout from '../layouts/DefaultLayout.astro'
 const { silver = '/Badge/Silver.png' } = Astro.props
 const { gold = '/Badge/Gold.png' } = Astro.props
 const { platinum = '/Badge/Platinum.png' } = Astro.props
+
 ---
 
 <DefaultLayout title="Organization">
@@ -17,26 +18,26 @@ const { platinum = '/Badge/Platinum.png' } = Astro.props
   <section class="mb-12 mt-32 text-center">
     <div class="container">
       <div class="grid grid-cols-1 gap-32 md:grid-cols-2">
-      <div> <img class="lg:block lg:h-32 h-36 w-auto ml-auto mr-auto" src={silver} alt="Silver" decoding="async" /> <p class="text-base"> $100-$500 </p> 
+      <div> <img class="lg:block md:h-32 lg:h-36 w-auto ml-auto mr-auto" src={silver} alt="Silver" decoding="async" /> <p class="text-base"> $100-$500 </p> 
       <br>
       <div class="text-left text-lg"> 
-      - 1 Mystery Box per month. <a href="#">More info</a> <br> 
+      - 1 Mystery Box per month. <span class="italic">(Cap)</span> <br> 
       - Higher Chance to win friend links from our current Main Players in our Giveaways. <br>
       - 1v1 vs one of our Professional Players. <br>
       - Be announced as a new Silver Member on our Official Twitter. <br>
-      - Opportunity to participate in our "HG Virtual Roulette". <a href="#">More info</a> <br>
+      - Opportunity to participate in our "HG Virtual Roulette". <span class="italic">(merchandise, vouchers, discounts on partner products, gaming accessoires, monthly subscription at one of the HG Content Creators)</span> <br>
       - 15% discount to purchase HG Official Team Jersey. <br>
       - Exclusive Role on the Offical HG Discord.
       
       </div></div>
-      <div> <img class="lg:block lg:h-32 h-36 w-auto ml-auto mr-auto" src={gold} alt="Gold" decoding="async" /> <p class="text-base">$500-$1500</p> 
+      <div> <img class="lg:block md:h-32 lg:h-36 w-auto ml-auto mr-auto" src={gold} alt="Gold" decoding="async" /> <p class="text-base">$500-$1500</p> 
       <br>
       <div class="text-left text-lg">
-      - 1 Mystery Box per month. <a href="#">More info</a> <br> 
+      - 1 Mystery Box per month. <span class="italic">()</span> <br> 
       - Higher Chance to win friend links from our current Main Players in our Giveaways. <br>
       - 1v1 vs one of our Professional Players. <br>
       - Be announced as a new Gold Member on our Official Twitter. <br>
-      - Opportunity to participate in our "HG Virtual Roulette". <a href="#">More info</a> <br>
+      - Opportunity to participate in our "HG Virtual Roulette". <span class="italic">(merchandise, vouchers, discounts on partner products, gaming accessoires, monthly subscription at one of the HG Content Creators)</span> <br>
       - 50% discount to purchase HG Official Team Jersey. <br>
       - Exclusive Role on the Offical HG Discord. <br>
       - Company/Personal name or your Photo/Logo will be integrated into all of our designs. <br>
@@ -45,14 +46,14 @@ const { platinum = '/Badge/Platinum.png' } = Astro.props
    </div>
    
    </div>
-      <div> <img class="lg:block lg:h-32 h-36 w-auto ml-auto mr-auto" src={platinum} alt="Platinum" decoding="async" /> <p class="text-base"> +$1500 </p>
+      <div> <img class="lg:block md:h-32 lg:h-36 w-auto ml-auto mr-auto" src={platinum} alt="Platinum" decoding="async" /> <p class="text-base"> +$1500 </p>
       <br>
       <div class="text-left text-lg"> 
-      - 1 Mystery Box per month. <a href="#">More info</a> <br> 
+      - 1 Mystery Box per month. <span class="italic">(Official Team Jersey)</span> <br> 
       - Friend links from our current Main Players in our Giveaways. <br>
       - 1v1 vs one of our Professional Players. <br>
       - Be announced as a new Platinum Member on our Official Twitter. <br>
-      - Opportunity to participate in our "HG Virtual Roulette". <a href="#">More info</a> <br>
+      - Opportunity to participate in our "HG Virtual Roulette". <span class="italic">(merchandise, vouchers, discounts on partner products, gaming accessoires, monthly subscription at one of the HG Content Creators)</span> <br>
       - Free Official HG Team Jersey with your Personal Name. <br>
       - Exclusive Role on the Offical HG Discord. <br>
       - Company/Personal Name or your Photo/Logo will be integrated into all of our designs. <br>      
