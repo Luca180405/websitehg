@@ -1,4 +1,6 @@
 ---
+import { Icon } from 'astro-icon'
+
 const currentYear = new Date().getFullYear()
 ---
 
@@ -10,8 +12,13 @@ const currentYear = new Date().getFullYear()
       </p>
       <a href="/impressum">Impressum</a>
     </div>
-    <div class="container">
-      Test
+    <div class="container flex flex-row">
+      <a href="https://twitter.com/HigherGamingEU" title="Go to the Twitter page">
+        <Icon pack="ion" name="logo-twitter" height="32px" />
+      </a>
+      <a href="https://discord.gg/X3WEY9JQyy" title="Go to the Twitter page">
+        <Icon pack="ic" name="baseline-discord" height="32px" />
+      </a>
     </div>
   </section>
 </footer>
