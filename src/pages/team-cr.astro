@@ -7,6 +7,7 @@ const { Kodigo = '/Kodigo.png' } = Astro.props
 const { Miniminter = '/Miniminter.png' } = Astro.props
 const { SurgTs = '/Surg TS.png' } = Astro.props
 const { SamuelBassotto = '/SamuelBassotto.png' } = Astro.props
+const { user = '/User.png' } = Astro.props
 ---
 
 <DefaultLayout title="CR Team">
@@ -19,7 +20,7 @@ const { SamuelBassotto = '/SamuelBassotto.png' } = Astro.props
     </div>
   </section>
   <section class="mb-12 mt-32 mr-10 ml-10">
-   <div class="grid gap-4 grid-cols-3 grid-rows-2">
+   <div class="grid gap-4 lg:grid-cols-3 md:grid-cols-2 grid-rows-2">
    
      <div class="flex flex-col bc border-2 rounded-t-xl">
       <img class="w-fit h-auto rounded-t-xl" src={Keef} alt="CR">
@@ -58,6 +59,14 @@ const { SamuelBassotto = '/SamuelBassotto.png' } = Astro.props
    <div class="text-center">
      <p class="text-lg font-bold">🇨🇴 Kodigo</p>
      <a href="https://twitter.com/Kodigo_GG"><Icon pack="ion" name="logo-twitter" class="h-8 w-auto ml-auto mr-auto" /></a>
+   </div>
+   </div>
+
+   <div class="flex flex-col bc border-2 rounded-t-xl">
+   <img class="w-fit h-auto rounded-t-xl mt-auto" src={user} alt="CR">
+   <div class="text-center">
+     <p class="text-lg font-bold">🇰🇷 ?</p>
+     <a href="#"><Icon pack="ion" name="logo-twitter" class="h-8 w-auto ml-auto mr-auto" /></a>
    </div>
    </div>
 
